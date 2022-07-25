@@ -1,0 +1,38 @@
+.plus {
+    min-height: 473px;
+    background: #F6F6F6;
+    padding: 73px 0 65px 0;
+    &__header {
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+        margin-top: 35px;
+        text-align: center;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 14px;
+        color: #0D0D0D;
+        margin-top: 20px;
+        text-align: center;
+        span {
+            text-transform: uppercase;
+            color:#FF0000;
+        }
+    }
+}
